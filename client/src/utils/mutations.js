@@ -1,3 +1,12 @@
+/*******************************************************************
+ * Carleton Bootcamp - 2024
+ * Copyright 2024 Carleton University - refactored by Gustavo Miller
+ * License: free and unencumbered software
+ * Assignment # 22 - State: Redux Store
+ * 
+ * Filename: mutations.js
+ * Date : 1/22/2024 6:03:40 PM
+ *******************************************************************/
 import { gql } from '@apollo/client';
 
 export const LOGIN = gql`
