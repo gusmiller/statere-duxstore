@@ -6,7 +6,8 @@
  * 
  * Filename: cleanDB.js
  * Date : 1/22/2024 6:03:40 PM
- *******************************************************************/const models = require('../models');
+ *******************************************************************/
+const models = require('../models');
 const db = require('../config/connection');
 
 module.exports = async (modelName, collectionName) => {

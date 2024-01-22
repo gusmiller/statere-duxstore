@@ -6,7 +6,8 @@
  * 
  * Filename: index.js
  * Date : 1/22/2024 6:03:40 PM
- *******************************************************************/const User = require('./User');
+ *******************************************************************/
+const User = require('./User');
 const Product = require('./Product');
 const Category = require('./Category');
 const Order = require('./Order');

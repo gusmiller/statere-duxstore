@@ -6,7 +6,8 @@
  * 
  * Filename: index.js
  * Date : 1/22/2024 6:03:40 PM
- *******************************************************************/const typeDefs = require('./typeDefs');
+ *******************************************************************/
+const typeDefs = require('./typeDefs');
 const resolvers = require('./resolvers');
 
 module.exports = { typeDefs, resolvers };

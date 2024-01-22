@@ -6,7 +6,8 @@
  * 
  * Filename: seeds.js
  * Date : 1/22/2024 6:03:40 PM
- *******************************************************************/const db = require('./connection');
+ *******************************************************************/
+const db = require('./connection');
 const { User, Product, Category } = require('../models');
 const cleanDB = require('./cleanDB');
 

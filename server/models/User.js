@@ -6,7 +6,8 @@
  * 
  * Filename: User.js
  * Date : 1/22/2024 6:03:40 PM
- *******************************************************************/const mongoose = require('mongoose');
+ *******************************************************************/
+const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
 const bcrypt = require('bcrypt');

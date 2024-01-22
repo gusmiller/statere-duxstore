@@ -6,6 +6,7 @@
  * 
  * Filename: connection.js
  * Date : 1/22/2024 6:03:40 PM
- *******************************************************************/const mongoose = require('mongoose');
+ *******************************************************************/
+const mongoose = require('mongoose');
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/mern-shopping');
 module.exports = mongoose.connection;
